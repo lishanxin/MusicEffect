@@ -6,6 +6,7 @@ import android.media.audiofx.Visualizer;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.util.Log;
+
 import com.example.musiceffect.R;
 
 public class VisualizerHelper {
@@ -23,7 +24,7 @@ public class VisualizerHelper {
             visualizer.release();
         }
         try {
-            mediaPlayer = MediaPlayer.create(context, R.raw.gem_gudu);
+            mediaPlayer = MediaPlayer.create(context, R.raw.ytkl);
             mediaPlayer.setLooping(true);
             mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
                 @Override

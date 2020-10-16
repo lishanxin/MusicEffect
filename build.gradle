@@ -2,8 +2,6 @@
 
 buildscript {
     repositories {
-        maven { url 'http://172.17.13.128/nexus/repository/google/'}
-        maven { url 'http://172.17.13.128/nexus/repository/jcenter/'}
         google()
         jcenter()
         
@@ -18,8 +16,6 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url 'http://172.17.13.128/nexus/repository/google/'}
-        maven { url 'http://172.17.13.128/nexus/repository/jcenter/'}
         google()
         jcenter()
         
